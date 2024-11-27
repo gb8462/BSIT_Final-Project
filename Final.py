@@ -1,4 +1,4 @@
-#this is a comment for testing
+#this is a test
 
 def personal_project():
     pass
