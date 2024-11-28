@@ -1,6 +1,10 @@
 import os
 
 from Code_Challanges import Code_Challange1
+from Code_Challanges import Code_Challange2
+from Code_Challanges import Code_Challange3
+from Code_Challanges import Code_Challange4
+from Code_Challanges import Code_Challange5
 
 def clean():
     os.system('clear')
@@ -48,17 +52,21 @@ def Code_challanges():
             Code_Challange1.Code_one()
 
         elif usr == "2":
-            print("EMPTY!")
+            print("OUTPUT: \n")
+            Code_Challange2.Code_two()
 
         elif usr == "3":
-            print("EMPTY!")
+            print("OUTPUT: \n")
+            Code_Challange3.Code_three()
         
         elif usr == "4":
-            print("EMPTY!")
+            print("OUTPUT: \n")
+            Code_Challange4.Code_four()
         
         elif usr == "5":
-            print("EMPTY!")
-        
+            print("OUTPUT: \n")
+            Code_Challange5.Code_five()
+
         elif usr.lower() == "menu":
             menu()
         
@@ -91,5 +99,4 @@ def main():
         else:
             print("INVALID INPUT! EXITING!")
             exit()
-
 main()
