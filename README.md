@@ -1,10 +1,12 @@
-# **Compiled Programs**
+# **Finals Compiled Programs**
 
-Code Activities
+## works on _Windows_ and _Linux_
+
+Code Activities - _SOON_
    - (In Progress)
 
-Code Challanges
+Code Challanges - _SOON_
    - (In Progress)
 
-Personal Projects
+Personal Projects - _SOON_
    - (In Progress)
