@@ -2,11 +2,11 @@
 
 ## works on _Windows_ and _Linux_
 
-Code Activities - _SOON_
+Code Activities - _COMING SOON_
    - (In Progress)
 
-Code Challanges - _SOON_
+Code Challanges - _COMING SOON_
    - (In Progress)
 
-Personal Projects - _SOON_
+Personal Projects - _COMING SOON_
    - (In Progress)
