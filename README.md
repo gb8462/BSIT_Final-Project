@@ -8,11 +8,11 @@
 **For _linux_ run Final_linux.py**
 
 Code Activities - _(UPDATE COMING SOON)_
-   - (In Progress)
+   - **(In Progress)**
 
 Code Challanges - _(**Updates Being Made**)_
-   - (Progress Being Made)
-   - **Currently Have Upto 5 Code Challanges**
+   - **(Progress Being Made)**
+   - _(**Currently Have Upto 5 Code Challanges**)_
 
 Personal Projects - _(UPDATE COMING SOON)_
-   - (In Progress)
+   - **(In Progress)**
