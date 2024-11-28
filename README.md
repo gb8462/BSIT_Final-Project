@@ -1,12 +1,12 @@
 # **Finals Compiled Programs**
 
-## works on _Windows_ and _Linux_
+## Supports Available For _Windows_ And _Linux_
 
-Code Activities - _COMING SOON_
+Code Activities - _(UPDATE SOON)_
    - (In Progress)
 
-Code Challanges - _COMING SOON_
-   - (In Progress)
+Code Challanges - _(Updates Being Made)_
+   - (Progress Being Made)
 
-Personal Projects - _COMING SOON_
+Personal Projects - _(UPDATE SOON)_
    - (In Progress)
