@@ -1,23 +1,23 @@
 import os
 
 def clean():
-    os.system('cls')    
+    os.system('cls')
 def personal_project():
-    print("\n==================================")    
+    print("\n==================================")
     print("===== No Personal Project yet=====")
     print("==================================\n")
     input("Please Press enter to exit ")
     clean()
 
 def School_Activities():
-    print("\n===================================")    
+    print("\n===================================")
     print("===== No School Activities yet=====")
     print("===================================\n")
     input("Please Press enter to exit ")
     clean()
 
 def Code_challanges():
-    print("\n================================")    
+    print("\n================================")
     print("===== No Code Challange yet=====")
     print("================================\n")
     input("Please Press enter to exit ")
