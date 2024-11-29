@@ -5,20 +5,6 @@ from Code_Challanges import (Code_Challange1,Code_Challange2,Code_Challange3,Cod
 def clean():
     os.system('clear')
 
-def personal_project():
-    print("\n==================================")
-    print("===== No Personal Project yet=====")
-    print("==================================\n")
-    input("Please Press enter to exit ")
-    clean()
-
-def School_Activities():
-    print("\n===================================")
-    print("===== No School Activities yet=====")
-    print("===================================\n")
-    input("Please Press enter to exit ")
-    clean()
-
 def Code_challanges():
     print("\n=================================")
     print("======== Code Challanges ========")
@@ -71,6 +57,20 @@ def Code_challanges():
         
         else:
             print("INVALID INPUT!")
+
+def School_Activities():
+    print("\n===================================")
+    print("===== No School Activities yet=====")
+    print("===================================\n")
+    input("Please Press enter to exit ")
+    clean()
+
+def personal_project():
+    print("\n==================================")
+    print("===== No Personal Project yet=====")
+    print("==================================\n")
+    input("Please Press enter to exit ")
+    clean()
 
 def main():
     while True:
