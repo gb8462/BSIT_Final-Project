@@ -1,6 +1,5 @@
 # Prints A Diamond At The Center Of The Terminal
 # -- using only one line of code --
-
 # An update has been made there's a function now
 # I placed it on a function for later use
 def Code_one():

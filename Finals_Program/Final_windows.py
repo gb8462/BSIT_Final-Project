@@ -1,10 +1,7 @@
 import os
 
-from Code_Challanges import Code_Challange1
-from Code_Challanges import Code_Challange2
-from Code_Challanges import Code_Challange3
-from Code_Challanges import Code_Challange4
-from Code_Challanges import Code_Challange5
+from Code_Challanges import (Code_Challange1,Code_Challange2,Code_Challange3,Code_Challange4,Code_Challange5)
+
 
 def clean():
     os.system('cls')

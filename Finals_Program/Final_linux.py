@@ -1,10 +1,6 @@
 import os
 
-from Code_Challanges import Code_Challange1
-from Code_Challanges import Code_Challange2
-from Code_Challanges import Code_Challange3
-from Code_Challanges import Code_Challange4
-from Code_Challanges import Code_Challange5
+from Code_Challanges import (Code_Challange1,Code_Challange2,Code_Challange3,Code_Challange4,Code_Challange5)
 
 def clean():
     os.system('clear')
@@ -81,21 +77,18 @@ def main():
         print("=============================")
         print("===== Compiled Projects =====")
         print("=============================")
-        print("[0]. Clear Terminal")
         print("[1]. Personal Projects")
         print("[2]. School Activities")
         print("[3]. School Code Challanges")
-        print("=============================")
-        usr = input("please enter a number from [0-3] : ")
+        print("=============================\n")
+        usr = input("please enter a number from [1-3] : ")
         clean()
-        if usr == "0":
-            clean()
-        elif usr == "1":
-            personal_project()
+        if usr == "1":
+            Code_challanges()
         elif usr == "2":
             School_Activities()
         elif usr == "3":
-            Code_challanges()
+            personal_project()
         else:
             print("INVALID INPUT! EXITING!")
             exit()

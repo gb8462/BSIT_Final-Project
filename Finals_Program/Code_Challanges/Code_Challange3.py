@@ -21,4 +21,4 @@ def Code_three():
     print("==============================================================================================================================")
     print("INFORMATION: "+"\nName: " + Name + "\nMobile Number: " + Mobile + "\nEmail: " + Email + "\nEducation: " + Educ + "\nAddress: " + Address + "\nBirth Date: " + birth + "\nGender: " + gen +  "\nMarital Status: " + marital_Status + "\nReligion: " + Religion + "\n\nFathers Name: " + Fname + "\nFathers Accupation: " + F_accupation + "\nMothers Name: " + Mname +"\nMothers Accupation: "+ M_accupation +"\n\nThank you for answering!")
     print("==============================================================================================================================")
-print()
+    print()

@@ -7,12 +7,12 @@
 **For _Windows_ run Final_windows.py**
 **For _linux_ run Final_linux.py**
 
-Code Activities - _(UPDATE COMING SOON)_
-   - **(In Progress)**
+**Code Activities** - _(UPDATE COMING SOON)_
+   - _(In Progress)_
 
-Code Challanges - _(**Updates Being Made**)_
-   - **(Progress Being Made)**
-   - _(**Currently Have Upto 5 Code Challanges**)_
+**Code Challanges** - _(Updates Being Made)_
+   - _(Progress Being Made)_
+   - _(Currently Have Upto 5 Code Challanges)_
 
-Personal Projects - _(UPDATE COMING SOON)_
-   - **(In Progress)**
+**Personal Projects**- _(UPDATE COMING SOON)_
+   - _(In Progress)_
