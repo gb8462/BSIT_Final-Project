@@ -7,7 +7,6 @@ from Code_Challanges import (
     Code_Challange13, Code_Challange14, Code_Challange15, Code_Challange16
 )
 
-
 def clean():
     os.system('cls')
 
