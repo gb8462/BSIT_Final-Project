@@ -1,4 +1,4 @@
-def code10():
+def Code10():
     for r in range(1,7):
         for i in range(7,r, -1):
             print(" ",end="")

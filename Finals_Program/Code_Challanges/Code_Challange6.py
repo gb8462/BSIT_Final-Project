@@ -1,4 +1,4 @@
-def code6():
+def Code6():
     prelim = eval(input("Prelim Score: "))
     midterm = eval(input("Midterm Score: "))
     semi_finals = eval(input("Semi Final Score: "))

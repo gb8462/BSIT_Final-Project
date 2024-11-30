@@ -1,21 +1,12 @@
 import os
 
-from Code_Challanges import Code_Challange1
-from Code_Challanges import Code_Challange2
-from Code_Challanges import Code_Challange3
-from Code_Challanges import Code_Challange4
-from Code_Challanges import Code_Challange5
-from Code_Challanges import Code_Challange6
-from Code_Challanges import Code_Challange7
-from Code_Challanges import Code_Challange8
-from Code_Challanges import Code_Challange9
-from Code_Challanges import Code_Challange10
-from Code_Challanges import Code_Challange11
-from Code_Challanges import Code_Challange12
-from Code_Challanges import Code_Challange13
-from Code_Challanges import Code_Challange14
-from Code_Challanges import Code_Challange15
-from Code_Challanges import Code_Challange16
+from Code_Challanges import (
+    Code_Challange1, Code_Challange2, Code_Challange3, Code_Challange4,
+    Code_Challange5, Code_Challange6, Code_Challange7, Code_Challange8,
+    Code_Challange9, Code_Challange10, Code_Challange11, Code_Challange12,
+    Code_Challange13, Code_Challange14, Code_Challange15, Code_Challange16
+)
+
 
 def clean():
     os.system('clear')
@@ -45,7 +36,7 @@ def Code_challanges():
         print("==========================================================")
     
     while True:        
-        usr = input("please type menu to view [Choices] : ")
+        usr = input("please type [menu] to view Choices : ")
         clean()
         
         if usr == "1":

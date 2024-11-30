@@ -1,2 +1,2 @@
-def code7():
+def Code7():
     print("\nCurrenly Unavailable\n")

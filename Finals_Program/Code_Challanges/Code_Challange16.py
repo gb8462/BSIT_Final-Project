@@ -11,7 +11,7 @@
 # user can also deposit, withdraw, and every deposit program should be able to display the current balance
 # program will only terminate if user choose to terminate the program
 
-def code16():
+def Code16():
     denominations = [1000, 500, 200, 100, 50, 20, 10, 5, 1]
 
     accounts = {}
