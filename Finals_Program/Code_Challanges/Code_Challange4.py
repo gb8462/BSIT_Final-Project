@@ -4,7 +4,7 @@
 # An update has been made there's a function now
 # I placed it on a function for later use
 
-def Code_four():
+def Code4():
     num1 = eval(input("Enter your first number here: "))
     num2 = eval(input("Enter your second number here: "))
 

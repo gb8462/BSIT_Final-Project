@@ -1,7 +1,7 @@
 # An update has been made there's a function now
 # I placed it on a function for later use
 
-def Code_five():
+def Code5():
     name = input("Enter your Name: ")
     depo = eval(input("Enter amount to deposit: "))
 

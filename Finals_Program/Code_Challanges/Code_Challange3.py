@@ -2,7 +2,7 @@
 # An update has been made there's a function now
 # I placed it on a function for later use
 
-def Code_three():
+def Code3():
     print("===============================================================BIO DATA===============================================================")
     Name = input("\n\tName: ").strip() .title()
     Mobile = input("\tMobile No. ")
