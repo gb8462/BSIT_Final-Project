@@ -7,7 +7,6 @@ def Code5():
 
     print("hi", name,"the break down of your deposit is:")
 
-
     print(depo & depo)
     first = (depo // 1000)
     print("1000php =",first)

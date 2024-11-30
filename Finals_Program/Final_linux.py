@@ -16,6 +16,7 @@ def Code_challanges():
     print("=================================\n")
     print("[exit]. Exit Code Challanges")
     print("[menu]. Code Challanges Menu\n")
+    
     def menu():
         print("\t==============================")
         print("\t============ Menu ============")
