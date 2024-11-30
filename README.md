@@ -1,6 +1,6 @@
 # **Finals Compiled Programs**
 
-## Supports Available For _Windows_ And _Linux_
+## Support Available For _Windows_ And _Linux_
 
 #### Depending which OS you are using please run the appropriate file inorder for it to work properly --(The only problem here is when Clearing the Terminal)
 
