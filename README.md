@@ -12,7 +12,7 @@
 
 **Code Challanges** - _(Updates Being Made)_
    - _(Progress Being Made)_
-   - _(Currently Have Upto 5 Code Challanges)_
+   - _(Currently Have Upto 12 Code Challanges done!)_
 
 **Personal Projects**- _(UPDATE COMING SOON)_
    - _(In Progress)_
