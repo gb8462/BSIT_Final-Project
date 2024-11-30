@@ -16,4 +16,3 @@ def code11():
         for z in range(t, 8):
             print("*", end="")
         print()
-code11()
