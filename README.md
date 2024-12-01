@@ -6,9 +6,9 @@
 
 _--(The only problem here is when Clearing the Terminal)_
 
-**For _Windows_ run Final_windows.py**
+**For _Windows_ run Finals_windows.py**
 
-**For _linux_ run Final_linux.py**
+**For _linux_ run Finals_linux.py**
 
 **Code Activities** - _(UPDATE COMING SOON)_
    - _(In Progress)_
