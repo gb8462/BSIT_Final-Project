@@ -11,16 +11,10 @@ def clean():
     os.system('cls')
 
 def Code_challanges():
-    print("\n=================================")
-    print("======== Code Challanges ========")
-    print("=================================\n")
-    print("[exit]. Exit Code Challanges")
-    print("[menu]. Code Challanges Menu\n")
-    
     def menu():
-        print("\t==============================")
-        print("\t============ Menu ============")
-        print("\t==============================")
+        print("==================================================")
+        print("====================== Menu ======================")
+        print("==================================================")
         print("Please Enter the number of your choice")
         print("==========================================================")
         print("[1]. Code Challange 1 \t[11]. Code Challange 11")
@@ -34,8 +28,13 @@ def Code_challanges():
         print("[9]. Code Challange 9")
         print("[10]. Code Challange 10")
         print("==========================================================")
-    
+
     while True:        
+        print("\n=================================")
+        print("======== Code Challanges ========")
+        print("=================================\n")
+        print("[exit]. Exit Code Challanges")
+        print("[menu]. Code Challanges Menu\n")
         usr = input("please type [menu] to view Choices : ")
         clean()
         
@@ -131,6 +130,7 @@ def main():
         print("=============================")
         print("===== Compiled Projects =====")
         print("=============================")
+        print("[0]. Exit Program")
         print("[1]. School Code Challanges")
         print("[2]. School Activities")
         print("[3]. Personal Projects")
@@ -143,7 +143,8 @@ def main():
             School_Activities()
         elif usr == "3":
             personal_project()
+        elif usr == "0":
+            print("Thank you for browsing my compiled programs")
         else:
-            print("INVALID INPUT! EXITING!")
-            exit()
+            print("INVALID INPUT! Try Again")
 main()
