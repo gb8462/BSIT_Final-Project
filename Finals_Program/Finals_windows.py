@@ -143,8 +143,8 @@ def School_Activities():
 
     while True:
         print("\n=================================")
-        print("========- Code Activities =====-===")
-        print("============================--=====\n")
+        print("========= Code Activities =========")
+        print("===================================\n")
         print("[exit]. Exit Code Challanges")
         print("[menu]. Code Challanges Menu\n")
         usr = input("please type [menu] to view Choices : ")
