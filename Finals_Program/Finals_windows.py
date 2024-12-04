@@ -118,7 +118,7 @@ def Code_challanges():
 
 def School_Activities():
     print("\n===================================")
-    print("===== No School Activities yet=====")
+    print("======== School Activities ========")
     print("===================================\n")
     def Menu():
         print("==================================================")

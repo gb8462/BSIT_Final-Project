@@ -1,2 +1,2 @@
 def act1():
-    print("Currently in progress")
+    print("Typing Test: Forgot My Result")
