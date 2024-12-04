@@ -226,7 +226,7 @@ def School_Activities():
             print("OUTPUT:")
             Activity25.act25()
         elif usr.lower() == "menu":
-            menu()
+            Menu()
         elif usr.lower() == "exit":
             print("Exiting...")
             return
@@ -260,6 +260,7 @@ def main():
             personal_project()
         elif usr == "0":
             print("Thank you for browsing my compiled programs")
+            exit()
         else:
             print("INVALID INPUT! Try Again")
 main()
