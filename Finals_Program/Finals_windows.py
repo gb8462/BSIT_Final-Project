@@ -15,6 +15,30 @@ from Code_Activities import (
 def clean():
     os.system('cls')
 
+def main():
+    while True:
+        print("=============================")
+        print("===== Compiled Projects =====")
+        print("=============================")
+        print("[0]. Exit Program")
+        print("[1]. School Code Challanges")
+        print("[2]. School Activities")
+        print("[3]. Personal Projects")
+        print("=============================\n")
+        usr = input("please enter a number from [1-3] : ")
+        clean()
+        if usr == "1":
+            Code_challanges()
+        elif usr == "2":
+            School_Activities()
+        elif usr == "3":
+            personal_project()
+        elif usr == "0":
+            print("Thank you for browsing my compiled programs")
+            exit()
+        else:
+            print("INVALID INPUT! Try Again")
+
 def Code_challanges():
     def menu():
         print("==================================================")
@@ -240,27 +264,4 @@ def personal_project():
     input("Please Press enter to exit ")
     clean()
 
-def main():
-    while True:
-        print("=============================")
-        print("===== Compiled Projects =====")
-        print("=============================")
-        print("[0]. Exit Program")
-        print("[1]. School Code Challanges")
-        print("[2]. School Activities")
-        print("[3]. Personal Projects")
-        print("=============================\n")
-        usr = input("please enter a number from [1-3] : ")
-        clean()
-        if usr == "1":
-            Code_challanges()
-        elif usr == "2":
-            School_Activities()
-        elif usr == "3":
-            personal_project()
-        elif usr == "0":
-            print("Thank you for browsing my compiled programs")
-            exit()
-        else:
-            print("INVALID INPUT! Try Again")
 main()
