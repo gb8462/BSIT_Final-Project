@@ -4,8 +4,6 @@
 
 #### Depending which OS you are using please run the appropriate file inorder for it to work properly 
 
-_--(The only problem here is when Clearing the Terminal)_
-
 **For _Windows_ run Finals_windows.py**
 
 **For _linux_ run Finals_linux.py**
