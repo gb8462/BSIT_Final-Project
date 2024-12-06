@@ -4,3 +4,4 @@
 # I placed it on a function for later use
 def Code1():
     print("\n\t\t\t\t\t\t\t* \n\t\t\t\t\t\t\t\b\b* * * \n\t\t\t\t\t\t\t\b\b\b\b* * * * * \n" + "\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b  * * * * * * * \n\t\t\t\t\t\t\t\b\b\b\b* * * * * \n\t\t\t\t\t\t\t\b\b* * * \n\t\t\t\t\t\t\t*")
+    
