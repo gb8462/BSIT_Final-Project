@@ -68,4 +68,3 @@ def Code7():
             break
         else:
             print("Invalid choice. Please choose a valid option.")
-Code7()

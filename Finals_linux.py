@@ -12,6 +12,10 @@ from Code_Activities import (
     Activity17, Activity18, Activity19, Activity20, Activity21, Activity22, Activity23, Activity24, Activity25
 )
 
+from Personal_Projects import (
+    Caesar_Cypher, Hash
+)
+
 def clean():
     os.system('clear')
 
@@ -150,19 +154,19 @@ def School_Activities():
 |==================================================|
 |      Please Enter the Number of Your Choice      |
 |==================================================|
-|[ 1 ]. Activity  1     [14]. Activity 14          |
-|[ 2 ]. Activity  2     [15]. Activity 15          |
-|[ 3 ]. Activity  3     [16]. Activity 16          |
-|[ 4 ]. Activity  4     [17]. Activity 17          |
-|[ 5 ]. Activity  5     [18]. Activity 18          |
-|[ 6 ]. Activity  6     [19]. Activity 19          |
-|[ 7 ]. Activity  7     [20]. Activity 20          |
-|[ 8 ]. Activity  8     [21]. Activity 21          |
-|[ 9 ]. Activity  9     [22]. Activity 22          |
-|[ 10 ]. Activity 10    [23]. Activity 23          |
-|[ 11 ]. Activity 11    [24]. Activity 24          |
-|[ 12 ]. Activity 12    [25]. Activity 25          |
-|[ 13 ]. Activity 13                               |
+| [ 1 ]. Activity  1     [14]. Activity 14         |
+| [ 2 ]. Activity  2     [15]. Activity 15         |
+| [ 3 ]. Activity  3     [16]. Activity 16         |
+| [ 4 ]. Activity  4     [17]. Activity 17         |
+| [ 5 ]. Activity  5     [18]. Activity 18         |
+| [ 6 ]. Activity  6     [19]. Activity 19         |
+| [ 7 ]. Activity  7     [20]. Activity 20         |
+| [ 8 ]. Activity  8     [21]. Activity 21         |
+| [ 9 ]. Activity  9     [22]. Activity 22         |
+| [ 10 ]. Activity 10    [23]. Activity 23         |
+| [ 11 ]. Activity 11    [24]. Activity 24         |
+| [ 12 ]. Activity 12    [25]. Activity 25         |
+| [ 13 ]. Activity 13                              |
 |==================================================|
 """)
     menu()
@@ -260,9 +264,14 @@ def School_Activities():
 
 def personal_project():
     print("\n==================================")
-    print("===== No Personal Project yet=====")
+    print("======== Personal Project ========")
     print("==================================\n")
-    input("Please Press enter to exit ")
+    print("Current Projects Available are: \n[1]. Caesar Cypher\n[2]. Hashing")
+    usr = input("Please Press enter to exit ")
     clean()
+    if usr == "1":
+        print("Currently Unavailable")
+    elif usr == "2":
+        Hash.hash()
 
 main()

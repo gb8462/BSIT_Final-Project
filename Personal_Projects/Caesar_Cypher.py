@@ -1,7 +1,7 @@
 import string
 
-while True:
-    def caesar_cipher(text, shift, mode="encrypt"):
+def caesar_cipher(text, shift, mode="encrypt"):
+    while True:
         alphabet = string.ascii_lowercase
         result_text = ""
 
