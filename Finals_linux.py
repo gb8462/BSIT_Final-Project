@@ -3,8 +3,8 @@ import os
 from Code_Challenges import (
     Code_Challenge1, Code_Challenge2, Code_Challenge3, Code_Challenge4,
     Code_Challenge5, Code_Challenge6, Code_Challenge7, Code_Challenge8,
-    Code_Challenge9, Code_Challenge10, Code_Challange11, Code_Challange12,
-    Code_Challange13, Code_Challange14, Code_Challange15, Code_Challange16
+    Code_Challenge9, Code_Challenge10, Code_Challenge11, Code_Challenge12,
+    Code_Challenge13, Code_Challenge14, Code_Challenge15, Code_Challenge16
 )
 from Code_Activities import (
     Activity1, Activity2, Activity3, Activity4, Activity5, Activity6, Activity7, Activity8,
@@ -28,7 +28,7 @@ def main():
         usr = input("please enter a number from [1-3] : ")
         clean()
         if usr == "1":
-            Code_challanges()
+            Code_challenges()
         elif usr == "2":
             School_Activities()
         elif usr == "3":
@@ -39,7 +39,7 @@ def main():
         else:
             print("INVALID INPUT! Try Again")
 
-def Code_challanges():
+def Code_challenges():
     def menu():
         print("==================================================")
         print("====================== Menu ======================")
