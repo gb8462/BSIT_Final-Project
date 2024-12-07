@@ -69,67 +69,67 @@ def Code_challenges():
         
         if usr == "1":
             print("OUTPUT:")
-            Code_Challange1.Code1()
+            Code_Challenge1.Code1()
 
         elif usr == "2":
             print("OUTPUT:")
-            Code_Challange2.Code2()
+            Code_Challenge2.Code2()
 
         elif usr == "3":
             print("OUTPUT:")
-            Code_Challange3.Code3()
+            Code_Challenge3.Code3()
         
         elif usr == "4":
             print("OUTPUT:")
-            Code_Challange4.Code4()
+            Code_Challenge4.Code4()
         
         elif usr == "5":
             print("OUTPUT:")
-            Code_Challange5.Code5()
+            Code_Challenge5.Code5()
 
         elif usr == "6":
             print("OUTPUT:")
-            Code_Challange6.Code6()
+            Code_Challenge6.Code6()
 
         elif usr == "7":
             print("OUTPUT:")
-            Code_Challange7.Code7()
+            Code_Challenge7.Code7()
         
         elif usr == "8":
             print("OUTPUT:")
-            Code_Challange8.Code8()
+            Code_Challenge8.Code8()
         
         elif usr == "9":
             print("OUTPUT:")
-            Code_Challange9.Code9()
+            Code_Challenge9.Code9()
 
         elif usr == "10":
             print("OUTPUT:")
-            Code_Challange10.Code10()
+            Code_Challenge10.Code10()
         
         elif usr == "11":
             print("OUTPUT:")
-            Code_Challange11.Code11()
+            Code_Challenge11.Code11()
         
         elif usr == "12":
             print("OUTPUT:")
-            Code_Challange12.Code12()
+            Code_Challenge12.Code12()
         
         elif usr == "13":
             print("OUTPUT:")
-            Code_Challange13.Code13()
+            Code_Challenge13.Code13()
         
         elif usr == "14":
             print("OUTPUT:")
-            Code_Challange14.Code14()
+            Code_Challenge14.Code14()
         
         elif usr == "15":
             print("OUTPUT:")
-            Code_Challange15.Code15()
+            Code_Challenge15.Code15()
 
         elif usr == "16":
             print("OUTPUT:")
-            Code_Challange16.Code16()
+            Code_Challenge16.Code16()
 
         elif usr.lower() == "menu":
             menu()
