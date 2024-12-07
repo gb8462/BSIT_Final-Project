@@ -1,6 +1,6 @@
 import os
 
-from Code_Challanges import (
+from Code_Challenges import (
     Code_Challange1, Code_Challange2, Code_Challange3, Code_Challange4,
     Code_Challange5, Code_Challange6, Code_Challange7, Code_Challange8,
     Code_Challange9, Code_Challange10, Code_Challange11, Code_Challange12,
