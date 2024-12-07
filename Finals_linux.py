@@ -20,12 +20,12 @@ def main():
         print("=============================")
         print("===== Compiled Projects =====")
         print("=============================")
-        print("[0]. Exit Program")
         print("[1]. School Code Challanges")
         print("[2]. School Activities")
         print("[3]. Personal Projects")
+        print("[0]. Exit Program")
         print("=============================\n")
-        usr = input("please enter a number from [1-3] : ")
+        usr = input("please enter a number from [0-3] : ")
         clean()
         if usr == "1":
             Code_challenges()
@@ -41,29 +41,31 @@ def main():
 
 def Code_challenges():
     def menu():
-        print("==================================================")
-        print("====================== Menu ======================")
-        print("==================================================")
-        print("Please Enter the number of your choice")
-        print("==========================================================")
-        print("[1]. Code Challange 1 \t[11]. Code Challange 11")
-        print("[2]. Code Challange 2 \t[12]. Code Challange 12")
-        print("[3]. Code Challange 3 \t[13]. Code Challange 13")
-        print("[4]. Code Challange 4 \t[14]. Code Challange 14")
-        print("[5]. Code Challange 5 \t[15]. Code Challange 15")
-        print("[6]. Code Challange 6 \t[16]. Code Challange 16")
-        print("[7]. Code Challange 7")
-        print("[8]. Code Challange 8")
-        print("[9]. Code Challange 9")
-        print("[10]. Code Challange 10")
-        print("==========================================================")
-
+        print("""
+|==================================================|
+|====================== MENU ======================|
+|==================================================|
+|         Please enter the number of your choice   |      
+|==================================================|
+|[ 1 ]. Code Challenge  1   [11]. Code Challenge 11|
+|[ 2 ]. Code Challenge  2   [12]. Code Challenge 12|
+|[ 3 ]. Code Challenge  3   [13]. Code Challenge 13|
+|[ 4 ]. Code Challenge  4   [14]. Code Challenge 14|
+|[ 5 ]. Code Challenge  5   [15]. Code Challenge 15|
+|[ 6 ]. Code Challenge  6   [16]. Code Challenge 16|
+|[ 7 ]. Code Challenge  7                          |
+|[ 8 ]. Code Challenge  8                          |
+|[ 9 ]. Code Challenge  9                          |
+|[ 10 ]. Code Challenge 10                         |
+|==================================================|
+""")
+    menu()
     while True:        
         print("\n=================================")
-        print("======== Code Challanges ========")
+        print("======== Code Challenges ========")
         print("=================================\n")
-        print("[exit]. Exit Code Challanges")
-        print("[menu]. Code Challanges Menu\n")
+        print("[exit]. Exit Code Challenges")
+        print("[menu]. Code Challenges Menu\n")
         usr = input("please type [menu] to view Choices : ")
         clean()
         
@@ -141,32 +143,31 @@ def Code_challenges():
             print("INVALID INPUT!")
 
 def School_Activities():
-    print("\n===================================")
-    print("======== School Activities ========")
-    print("===================================\n")
-    def Menu():
-        print("==================================================")
-        print("====================== Menu ======================")
-        print("==================================================")
-        print("Please Enter the number of your choice")
-        print("==========================================================")
-        print("[1]. Activity 1 \t[14]. Activity 14")
-        print("[2]. Activity 2 \t[15]. Activity 15")
-        print("[3]. Activity 3 \t[16]. Activity 16")
-        print("[4]. Activity 4 \t[17]. Activity 17")
-        print("[5]. Activity 5 \t[18]. Activity 18")
-        print("[6]. Activity 6 \t[19]. Activity 19")
-        print("[7]. Activity 7 \t[20]. Activity 20")
-        print("[8]. Activity 8 \t[21]. Activity 21")
-        print("[9]. Activity 9 \t[22]. Activity 22")
-        print("[10]. Activity 10 \t[23]. Activity 23")
-        print("[11]. Activity 11 \t[24]. Activity 24")
-        print("[12]. Activity 12 \t[25]. Activity 25")
-        print("[13]. Activity 13")
-        print("==========================================================")
-
+    def menu():
+        print("""
+|==================================================|
+|====================== MENU ======================|
+|==================================================|
+|      Please Enter the Number of Your Choice      |
+|==================================================|
+|[ 1 ]. Activity  1     [14]. Activity 14          |
+|[ 2 ]. Activity  2     [15]. Activity 15          |
+|[ 3 ]. Activity  3     [16]. Activity 16          |
+|[ 4 ]. Activity  4     [17]. Activity 17          |
+|[ 5 ]. Activity  5     [18]. Activity 18          |
+|[ 6 ]. Activity  6     [19]. Activity 19          |
+|[ 7 ]. Activity  7     [20]. Activity 20          |
+|[ 8 ]. Activity  8     [21]. Activity 21          |
+|[ 9 ]. Activity  9     [22]. Activity 22          |
+|[ 10 ]. Activity 10    [23]. Activity 23          |
+|[ 11 ]. Activity 11    [24]. Activity 24          |
+|[ 12 ]. Activity 12    [25]. Activity 25          |
+|[ 13 ]. Activity 13                               |
+|==================================================|
+""")
+    menu()
     while True:
-        print("\n=================================")
+        print("\n===================================")
         print("========= Code Activities =========")
         print("===================================\n")
         print("[exit]. Exit Code Activities")
@@ -250,7 +251,7 @@ def School_Activities():
             print("OUTPUT:")
             Activity25.act25()
         elif usr.lower() == "menu":
-            Menu()
+            menu()
         elif usr.lower() == "exit":
             print("Exiting...")
             return
