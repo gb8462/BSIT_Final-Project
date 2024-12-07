@@ -1,9 +1,9 @@
 import os
 
 from Code_Challenges import (
-    Code_Challange1, Code_Challange2, Code_Challange3, Code_Challange4,
-    Code_Challange5, Code_Challange6, Code_Challange7, Code_Challange8,
-    Code_Challange9, Code_Challange10, Code_Challange11, Code_Challange12,
+    Code_Challenge1, Code_Challenge2, Code_Challenge3, Code_Challenge4,
+    Code_Challenge5, Code_Challenge6, Code_Challenge7, Code_Challenge8,
+    Code_Challenge9, Code_Challenge10, Code_Challange11, Code_Challange12,
     Code_Challange13, Code_Challange14, Code_Challange15, Code_Challange16
 )
 from Code_Activities import (
@@ -169,8 +169,8 @@ def School_Activities():
         print("\n=================================")
         print("========= Code Activities =========")
         print("===================================\n")
-        print("[exit]. Exit Code Challanges")
-        print("[menu]. Code Challanges Menu\n")
+        print("[exit]. Exit Code Activities")
+        print("[menu]. Code Activities Menu\n")
         usr = input("please type [menu] to view Choices : ")
         clean()
 
