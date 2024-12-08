@@ -1,9 +1,7 @@
 import hashlib
-import os
 def hash():
     while True:
         data = input("Enter data to hash (or type 'exit' to quit): ")
-        os.system('cls')
         if data.lower() == 'exit':
             break
         elif not data.strip():
