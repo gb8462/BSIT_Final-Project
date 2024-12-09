@@ -1,5 +1,5 @@
 # Code Challanges Written In The Past Few Days
 
-## Most Code Challange are now _Done_
+**Code Challanges are now Available and Complete!**
 
-**Code Challange 14 and 15 are  _currently_ unavailable**
+**Code Activities are now In Progress and will be available soon!**
