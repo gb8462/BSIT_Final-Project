@@ -12,8 +12,10 @@ def Encoding_Decoding():
             encode()
         elif usr == "2":
             decode()
+        elif usr.lower() == "exit":
+            exit()
         else:
-            print("Invalid input, please Try Again!")
+            print("Invalid input, please Try Again!\n --->Type [Exit] to exit program")
 
 def encode():
     encoding = input("Please Enter what you want to encrypt: ")
