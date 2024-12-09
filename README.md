@@ -11,9 +11,9 @@
 **Code Activities** - _(UPDATE COMING SOON)_
    - _(In Progress)_
 
-**Code Challanges** - _(Updates Being Made)_
+**Code Challenges** - _(Updates Being Made)_
    - _(Progress Being Made)_
-   - _(Currently Have Upto 12 Code Challanges done!)_
+   - _(Currently Have Upto 12 Code Challenges done!)_
 
 **Personal Projects**- _(UPDATE COMING SOON)_
    - _(In Progress)_
