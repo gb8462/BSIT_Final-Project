@@ -273,7 +273,7 @@ def personal_project():
         if usr == "1":
             Hash.hash()
         elif usr == "2":
-            Base64.Encoding_Decoding()
+            Base64_linux.Encoding_Decoding()
         elif usr.lower() == "exit":
             exit()
         else:
