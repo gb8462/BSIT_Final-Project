@@ -2,4 +2,6 @@
 
 ## Code Challenges are now Available and Complete!
 
-## Code Activities are now In Progress and will be available soon!**
+**Code Challenges** - _(Updates Made!)_
+   - _(Progress Made!)_
+   - _(All Code Challenges done!)_
