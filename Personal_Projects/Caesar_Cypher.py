@@ -1,27 +1,21 @@
 import string
 
-while True:
-    def caesar_cipher(text, shift, mode="encrypt"):
+def caesar_cipher():
+    while True:
         alphabet = string.ascii_lowercase
-        result_text = ""
-
+        result = ""
+        mode = input("Encrypt or decrypt? (type 'encrypt' or 'decrypt'): ").strip().lower()
+        text = input("Enter text: ")
+        shift = int(input("Shift value: "))
         for char in text:
             if char.isalpha():
-                is_upper = char.isupper()
-                base = string.ascii_uppercase if is_upper else alphabet
+                base = string.ascii_uppercase if char.isupper() else alphabet
+                index = base.index(char.lower())
                 if mode == "decrypt":
-                    new_char = base[(base.index(char.lower()) - shift) % 26]
+                    new_index = (index - shift) % 26
                 else:
-                    new_char = base[(base.index(char.lower()) + shift) % 26]
-                result_text += new_char.upper() if is_upper else new_char
+                    new_index = (index + shift) % 26
+                result += base[new_index].upper() if char.isupper() else base[new_index]
             else:
-                result_text += char
-
-        return result_text
-
-    mode = input("Do you want to encrypt or decrypt? (type 'encrypt' or 'decrypt'): ").strip().lower()
-    text = input("Enter your text: ").lower()
-    shift_value = int(input("Enter the shift value: "))
-
-    result = caesar_cipher(text, shift_value, mode)
-    print(f"{mode.capitalize()}ed Message:", result)
+                result += char
+        print(f"{mode.capitalize()}ed message: {result}")

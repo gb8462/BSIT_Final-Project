@@ -13,7 +13,7 @@ from Code_Activities import (
 )
 
 from Personal_Projects import (
-    Hash, Base64_linux
+    Hash, Base64_linux, Caesar_Cypher
 )
 
 def clean():
@@ -267,13 +267,15 @@ def personal_project():
         print("\n==================================")
         print("======== Personal Project ========")
         print("==================================\n")
-        print("Current Projects Available are: \n[1]. Hashing\n[2]. Base64")
-        usr = input("Please Press enter to exit ")
+        print("Type [exit] to exit program\n\nCurrent Projects Available are: \n[1]. Hashing\n[2]. Base64\n[3]. Caesar Cypher")
+        usr = input("Please type enter the number of your choice ")
         clean()
         if usr == "1":
             Hash.hash()
         elif usr == "2":
             Base64_linux.Encoding_Decoding()
+        elif usr == "3":
+            Caesar_Cypher.caesar_cipher()
         elif usr.lower() == "exit":
             exit()
         else:
