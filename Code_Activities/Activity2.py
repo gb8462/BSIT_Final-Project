@@ -1,2 +1,3 @@
 def act2():
-    print("Currently in progress")
+    name = input("Pease Enter Your Name : ")
+    print(f"Hallooo {name}")
