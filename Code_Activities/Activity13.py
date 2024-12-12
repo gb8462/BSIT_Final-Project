@@ -1,2 +1,9 @@
+# Code Written by Arglen
+# Huge Thanks Again :D
 def act13():
-    print("Currently in progress")
+    number = int(input("Enter any number: "))
+    factorial = 1
+    for fact in range(number, 0, -1):
+        factorial *= fact 
+        rounded = round(factorial, 2)
+    print(f"The factorial of {rounded}\n")
