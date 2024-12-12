@@ -1,5 +1,6 @@
 # Code Written by Arglen
 # Huge Thanks Again :D
+# Factorial stuff
 def act13():
     number = int(input("Enter any number: "))
     factorial = 1
