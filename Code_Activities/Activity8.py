@@ -1,2 +1,9 @@
+ # Arglen wrote this code not me
 def act8():
-    print("Currently in progress")
+    passcode= input("Enter passkey >>> ") 
+    if passcode.lower() == "hi":
+        print("Hi")
+        print("Love ya too, mwaa\n")
+    else:
+        print("wrong passkey!!")
+        print("""Hint: HI yung password\n""")
