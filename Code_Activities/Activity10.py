@@ -1,3 +1,4 @@
+# Shout out to me :3
 def act10():
     QDll = input("Are you a student of DLL? (Yes/No): ")
 
