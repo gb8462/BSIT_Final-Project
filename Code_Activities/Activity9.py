@@ -1,3 +1,4 @@
+# Huge Thanks from Arglen
 def act9():
     age = int(input("Enter your age: "))
     if age <= 1:
