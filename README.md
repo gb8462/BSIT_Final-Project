@@ -8,8 +8,8 @@
 
 **For _linux_ run Finals_linux.py**
 
-**Code Activities** - _(UPDATE COMING SOON)_
-   - _(In Progress)_
+**Code Activities** - _(UPDATES BEING MADE!)_
+   - _(CURRENTLY AVAILABLE ACTIVITY 1 to 20!)_
 
 **Code Challenges** - _(Updates Made!)_
    - _(Progress Made!)_
