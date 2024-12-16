@@ -4,7 +4,7 @@ from Code_Challenges import (
     Code_Challenge1, Code_Challenge2, Code_Challenge3, Code_Challenge4,
     Code_Challenge5, Code_Challenge6, Code_Challenge7, Code_Challenge8,
     Code_Challenge9, Code_Challenge10, Code_Challenge11, Code_Challenge12,
-    Code_Challenge13, Code_Challenge14, Code_Challenge15, Code_Challenge16
+    Code_Challenge13, Code_Challenge14, Code_Challenge15, Code_Challenge16_Windows
 )
 from Code_Activities import (
     Activity1, Activity2, Activity3, Activity4, Activity5, Activity6, Activity7, Activity8,
@@ -135,7 +135,7 @@ def Code_challenges():
 
         elif usr == "16":
             print("OUTPUT:")
-            Code_Challenge16.Code16()
+            Code_Challenge16_Windows.Code16()
 
         elif usr.lower() == "menu":
             menu()
