@@ -247,10 +247,10 @@ def School_Activities():
             Activity22.act22()
         elif usr == "23":
             print("OUTPUT:")
-            Activity23.act23()
+            Activity23.act23(4)
         elif usr == "24":
             print("OUTPUT:")
-            Activity24.act24()
+            Activity24.act24(4)
         elif usr == "25":
             print("OUTPUT:")
             Activity25.act25()
@@ -277,7 +277,7 @@ def personal_project():
         elif usr == "3":
             Caesar_Cypher.caesar_cipher()
         elif usr.lower() == "exit":
-            exit()
+            break
         else:
             print("Invalid input Please Try Again!")
 main()

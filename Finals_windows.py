@@ -17,7 +17,7 @@ from Personal_Projects import (
 )
 
 def clean():
-    os.system('cls')
+    os.system('clear')
 
 def main():
     while True:
@@ -247,10 +247,10 @@ def School_Activities():
             Activity22.act22()
         elif usr == "23":
             print("OUTPUT:")
-            Activity23.act23()
+            Activity23.act23(4)
         elif usr == "24":
             print("OUTPUT:")
-            Activity24.act24()
+            Activity24.act24(4)
         elif usr == "25":
             print("OUTPUT:")
             Activity25.act25()
@@ -273,11 +273,11 @@ def personal_project():
         if usr == "1":
             Hash.hash()
         elif usr == "2":
-            Base64_linux.Encoding_Decoding()
+            Base64_windows.Encoding_Decoding()
         elif usr == "3":
             Caesar_Cypher.caesar_cipher()
         elif usr.lower() == "exit":
-            exit()
+            break
         else:
             print("Invalid input Please Try Again!")
 main()
