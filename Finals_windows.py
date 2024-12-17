@@ -21,6 +21,7 @@ def clean():
 
 def main():
     while True:
+        Loading_windows.load()
         print("=============================")
         print("===== Compiled Projects =====")
         print("=============================")
@@ -32,12 +33,16 @@ def main():
         usr = input("please enter a number from [0-3] : ")
         clean()
         if usr == "1":
+            Loading_windows.load()
             Code_challenges()
         elif usr == "2":
+            Loading_windows.load()
             School_Activities()
         elif usr == "3":
+            Loading_windows.load()
             personal_project()
         elif usr == "0":
+            Loading_windows.exiting()
             print("Thank you for browsing my compiled programs")
             exit()
         else:
@@ -74,56 +79,73 @@ def Code_challenges():
         clean()
         
         if usr == "1":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge1.Code1()
         elif usr == "2":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge2.Code2()
         elif usr == "3":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge3.Code3()
         elif usr == "4":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge4.Code4()
         elif usr == "5":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge5.Code5()
         elif usr == "6":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge6.Code6()
         elif usr == "7":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge7.Code7()
         elif usr == "8":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge8.Code8()
         elif usr == "9":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge9.Code9()
         elif usr == "10":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge10.Code10()
         elif usr == "11":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge11.Code11()
         elif usr == "12":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge12.Code12()
         elif usr == "13":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge13.Code13()
         elif usr == "14":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge14.Code14()
         elif usr == "15":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge15.Code15()
         elif usr == "16":
+            Loading_windows.load()
             print("OUTPUT:")
             Code_Challenge16_Windows.Code16()
         elif usr.lower() == "menu":
             menu()
         elif usr.lower() == "exit":
+            Loading_windows.exiting()
             return
         else:
             print("INVALID INPUT!")
@@ -162,84 +184,109 @@ def School_Activities():
         clean()
 
         if usr == "1":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity1.act1()
         elif usr == "2":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity2.act2()
         elif usr == "3":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity3.act3()
         elif usr == "4":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity4.act4()
         elif usr == "5":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity5.act5()
         elif usr == "6":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity6.act6()
         elif usr == "7":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity7.act7()
         elif usr == "8":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity8.act8()
         elif usr == "9":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity9.act9()
         elif usr == "10":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity10.act10()
         elif usr == "11":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity11.act11()
         elif usr == "12":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity12.act12()
         elif usr == "13":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity13.act13()
         elif usr == "14":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity14.act14()
         elif usr == "15":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity15.act15()
         elif usr == "16":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity16.act16()
         elif usr == "17":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity17.act17()
         elif usr == "18":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity18.act18()
         elif usr == "19":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity19.act19()
         elif usr == "20":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity20.act20()
         elif usr == "21":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity21.act21()
         elif usr == "22":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity22.act22()
         elif usr == "23":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity23.act23(4)
         elif usr == "24":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity24.act24(4)
         elif usr == "25":
+            Loading_windows.load()
             print("OUTPUT:")
             Activity25.act25()
         elif usr.lower() == "menu":
             menu()
         elif usr.lower() == "exit":
-            print("Exiting...")
+            Loading_windows.exiting()
             return
         else:
             print("INVALID INPUT!")
@@ -253,13 +300,17 @@ def personal_project():
         usr = input("Please type enter the number of your choice ")
         clean()
         if usr == "1":
+            Loading_windows.load()
             Hash.hash()
         elif usr == "2":
+            Loading_windows.load()
             Base64_windows.Encoding_Decoding()
         elif usr == "3":
+            Loading_windows.load()
             Caesar_Cypher.caesar_cipher()
         elif usr.lower() == "exit":
-            break
+            Loading_windows.exiting()
+            return
         else:
             print("Invalid input Please Try Again!")
 main()
