@@ -3,5 +3,6 @@
 ## Currently Work In Progress
 
    **Personal Projects Currently Available:**
-   - _(Base64 Encoding and Decoding program)_
-   - _(SHA-256 Hashing program)_
+   - _Base64 Encoding and Decoding program(For Windows and Linux)_
+   - _SHA-256 Hashing program_
+   - _Simple Loading Animation program (For windows and linux)_
