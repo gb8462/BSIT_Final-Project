@@ -80,90 +80,72 @@ def Code_challenges():
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge1.Code1()
-
         elif usr == "2":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge2.Code2()
-
         elif usr == "3":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge3.Code3()
-        
         elif usr == "4":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge4.Code4()
-        
         elif usr == "5":
             Loading_linux.load()
             print("OUTPUT:")
             Loading_linux.load()
             Code_Challenge5.Code5()
-
         elif usr == "6":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge6.Code6()
-
         elif usr == "7":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge7.Code7()
-        
         elif usr == "8":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge8.Code8()
-        
         elif usr == "9":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge9.Code9()
-
         elif usr == "10":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge10.Code10()
-        
         elif usr == "11":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge11.Code11()
-        
         elif usr == "12":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge12.Code12()
-        
         elif usr == "13":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge13.Code13()
-        
         elif usr == "14":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge14.Code14()
-        
         elif usr == "15":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge15.Code15()
-
         elif usr == "16":
             Loading_linux.load()
             print("OUTPUT:")
             Code_Challenge16_Linux.Code16()
-
         elif usr.lower() == "menu":
             Loading_linux.load()
             menu()
-        
         elif usr.lower() == "exit":
             return
-        
         else:
             print("INVALID INPUT!")
 
