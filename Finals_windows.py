@@ -13,11 +13,11 @@ from Code_Activities import (
 )
 
 from Personal_Projects import (
-    Hash, Base64_windows, Caesar_Cypher
+    Hash, Base64_windows, Caesar_Cypher, Loading_windows
 )
 
 def clean():
-    os.system('clear')
+    os.system('cls')
 
 def main():
     while True:
