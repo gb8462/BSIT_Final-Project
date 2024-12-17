@@ -145,6 +145,7 @@ def Code_challenges():
             Loading_linux.load()
             menu()
         elif usr.lower() == "exit":
+            Loading_linux.exiting()
             return
         else:
             print("INVALID INPUT!")
@@ -285,7 +286,7 @@ def School_Activities():
         elif usr.lower() == "menu":
             menu()
         elif usr.lower() == "exit":
-            print("Exiting...")
+            Loading_linux.exiting()
             return
         else:
             print("INVALID INPUT!")
@@ -308,7 +309,8 @@ def personal_project():
             Loading_linux.load()
             Caesar_Cypher.caesar_cipher()
         elif usr.lower() == "exit":
-            break
+            Loading_linux.exiting()
+            return
         else:
             print("Invalid input Please Try Again!")
 main()
