@@ -143,7 +143,6 @@ def Code_challenges():
             print("OUTPUT:")
             Code_Challenge16_Linux.Code16()
         elif usr.lower() == "menu":
-            Loading_linux.load()
             menu()
         elif usr.lower() == "exit":
             Loading_linux.exiting()
