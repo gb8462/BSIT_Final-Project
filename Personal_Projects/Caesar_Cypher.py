@@ -18,8 +18,7 @@ def caesar_cipher():
                         new_index = (index + shift) % 26
                     elif mode == "decrypt":
                         new_index = (index - shift) % 26
-                    else:
-                        print("Invalid mode! Try again.")
+                    elif mode == "exit":
                         return
                     
                     result += base[new_index].upper() if char.isupper() else base[new_index]
