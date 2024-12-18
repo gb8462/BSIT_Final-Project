@@ -21,6 +21,7 @@ def clean():
 
 def main():
     while True:
+        Loading_linux.load()
         print("=============================")
         print("===== Compiled Projects =====")
         print("=============================")
