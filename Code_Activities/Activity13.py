@@ -2,7 +2,7 @@
 # Huge Thanks Again :D
 # Factorial stuff
 def act13():
-    number = int(input("Enter any number: "))
+    number = int(input("Enter a number: "))
     factorial = 1
     for fact in range(number, 0, -1):
         factorial *= fact 
