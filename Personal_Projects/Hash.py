@@ -3,7 +3,7 @@ def hash():
     while True:
         data = input("Enter data to hash (or type 'exit' to quit): ")
         if data.lower() == 'exit':
-            break
+            return
         elif not data.strip():
             print("\nInput cannot be empty!\n")
             continue

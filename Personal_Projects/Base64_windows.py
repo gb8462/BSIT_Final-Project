@@ -6,6 +6,7 @@ def clean():
 
 def Encoding_Decoding():
     while True:
+        print('type "exit" to exit program')
         usr = input("Please Enter a number whether you want to [1]encode or [2]decode\n====> ")
         clean()
         if usr == "1":
@@ -13,7 +14,7 @@ def Encoding_Decoding():
         elif usr == "2":
             decode()
         elif usr.lower() == "exit":
-            exit()
+            return
         else:
             print("Invalid input, please Try Again!\n --->Type [Exit] to exit program")
 
