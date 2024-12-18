@@ -13,7 +13,7 @@ def Encoding_Decoding():
         elif usr == "2":
             decode()
         elif usr.lower() == "exit":
-            exit()
+            return()
         else:
             print("Invalid input, please Try Again!\n --->Type [Exit] to exit program")
 
