@@ -5,7 +5,12 @@ def caesar_cipher():
         try:
             alphabet = string.ascii_lowercase
             result = ""
-            mode = input("Encrypt or decrypt? (type 'encrypt' or 'decrypt'): ").strip().lower()
+            mode = input("Encrypt or decrypt? (type 'encrypt', 'decrypt', or 'exit' to quit): ").strip().lower()
+            
+            if mode == "exit":
+                print("Goodbye!")
+                break
+            
             text = input("Enter text: ")
             shift = int(input("Shift value: "))
 
@@ -18,8 +23,9 @@ def caesar_cipher():
                         new_index = (index + shift) % 26
                     elif mode == "decrypt":
                         new_index = (index - shift) % 26
-                    elif mode == "exit":
-                        return
+                    else:
+                        print("Invalid mode! Try again.")
+                        break
                     
                     result += base[new_index].upper() if char.isupper() else base[new_index]
                 else:
